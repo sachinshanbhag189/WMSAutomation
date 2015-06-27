@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.selenium.wmsautotests.WMSAutomationTests">
+        <methods>
+          <include name="test_Quick_Search_returns_zero_results"/>
+          <include name="test_Quick_Search_returns_results"/>
+          <include name="test_Device_Search_returns_zero_results"/>
+          <include name="test_Device_Search_returns_results"/>
+        </methods>
+      </class> <!-- com.selenium.wmsautotests.WMSAutomationTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

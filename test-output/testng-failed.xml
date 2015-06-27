@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [src]">
+  <parameter name="password" value="webord"/>
+  <parameter name="username" value="wms"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.selenium.wmsautotests.WMSAutomationTests">
+        <methods>
+          <include name="test_Login_to_AM"/>
+          <include name="test_Device_Search_returns_results" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.selenium.wmsautotests.WMSAutomationTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [src] -->
